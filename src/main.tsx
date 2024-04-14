@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom"
 import RootLayout from './layouts/RootLayout.tsx'
 import HomePage from './pages/HomePage.tsx'
 import CreateServerModal from './components/modals/CreateServerModal.tsx'
+import '@mantine/dropzone/styles.css';
 
 const ProtectedRoute = ( { children }: { children:React.ReactNode } ) => {
   return (
